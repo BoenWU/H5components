@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>课程学习情况</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script type="text/javascript" src="../js/lib/jquery.js"></script>
+	<script type="text/javascript" src="../js/lib/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../js/lib/jquery.fullPage.js"></script>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		.component{
+			width: 50%;
+			height: 50px;
+			margin-bottom: 20px;
+			background: #eee;
+		}
+	</style>
+</head>
+<body>
+<!--仅用于验证页面结构和功能-->
+	<div id="h5">
+		<div class="page section" id="page-1">
+			<div class="component logo">logo</div>
+			<div class="component slogon">slogon</div>
+		</div>
+		<div class="page section" id="page-2">
+			<div class="component desc">描述信息</div>
+		</div>
+		<div class="page section" id="page-3">
+			<div class="component bar">树状图</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			$('#h5').fullpage({
+				'sectionsColor':['#254875','#00ff00','#254587','#695684'],
+			});	
+		});
+	</script>
+</body>
+</html>
