@@ -1,5 +1,4 @@
 /* 环图组件对象 */
-
 var H5ComponentRing =function ( name, cfg ) {
   cfg.type = 'pie';
   if(cfg.data.length>1){  //  环图应该只有一个数据
