@@ -149,7 +149,6 @@ H5ComponentPie.reSort=function(list){
 	var willReset=[];
 	$.each(list,function(i,domTarget){
 		if(list[i+1]&&compare(domTarget,list[i+1])){
-			console.log($(domTarget).text(),$(list[i+1]).text(),'相交',compare(domTarget,list[i+1]));
 			if(willReset.length==0){
 				willReset.push(domTarget);
 				willReset.push(list[i+1]);
@@ -158,7 +157,6 @@ H5ComponentPie.reSort=function(list){
 			}
 		}
 	})
-	console.log(willReset);
 	if(willReset.length>1){
 		$.each(willReset,function(i,domA){
 			if(willReset[i+1]){
