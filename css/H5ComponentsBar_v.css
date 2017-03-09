@@ -5,7 +5,6 @@
     position: relative;
 
 }
-
 .h5_component_bar_v .name{
     width: 100%;
     position: absolute;
@@ -15,7 +14,6 @@
     bottom: -20px;
     text-align: center;
 }
-
 .h5_component_bar_v .rate{
     height: 100%;
     width: 15px;
@@ -33,7 +31,6 @@
     bottom: 0;
     border-radius: 3px;
 }
-
 .h5_component_bar_v .per{
     width: 100%;
     position: absolute;
@@ -45,18 +42,13 @@
     color: #99c0ff;
     -webkit-opacity:0;
 }
-
 .h5_component_bar_v_load .rate .bg{
     -webkit-transition:all 1s .5s;
     height: 100%;
 }
-
-
 .h5_component_bar_v_leave .rate .bg{
     height: 0%;
 }
-
-
 .h5_component_bar_v_load .per{
     -webkit-transition:all 1s 1.5s;
     -webkit-opacity:1;
